@@ -29,10 +29,8 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Javier Gutierrez's website"
     author: Javier Gutierrez
-    # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
-    # disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -66,13 +64,13 @@ params:
     #     Title: "PaperMod"
         
 
-    # socialIcons:
-    #     - name: linkedin
-    #       url: "https://www.linkedin.com/in/jgtrez"
-    #     - name: github
-    #       url: "https://github.com/gutierrezjav"
-    #     - name: twitter
-    #       url: "https://twitter.com/gutierrezjav"
+    socialIcons:
+        - name: linkedin
+          url: "https://www.linkedin.com/in/jgtrez"
+        - name: github
+          url: "https://github.com/gutierrezjav"
+        - name: twitter
+          url: "https://twitter.com/gutierrezjav"
           
 
 
@@ -82,7 +80,7 @@ params:
     #     appendFilePath: true # to append file path to Edit link
 
     # label:
-    #     text: "Home"
+    #     text: "JG"
     #     icon: icon.png
     #     iconHeight: 35
 
