@@ -2,78 +2,80 @@ en:
     languageName: ":gb:"
     languageAltTitle: English
     weight: 1
+    title: "JG"
     taxonomies:
-      category: categories
-      tag: tags
-      series: series
-    menu:
-        main:
-            - name: Archive
-              url: archives
-              weight: 5
-            - name: Search
-              url: search/
-              weight: 10
-            - name: Tags
-              url: tags/
-              weight: 10
-            - name: WiKi
-              url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-            - name: Discord
-              url: https://discord.gg/ahpmTvhVmp
-
-fr:
-    languageName: ":fr:"
-    languageAltTitle: French
-    weight: 2
-    title: PaperModL2
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
+      cv: CV
+      contact: Contact
+      projects: Projects
     profileMode:
         enabled: true
-        title: PaperMod
-        imageUrl: "https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f317.svg"
-        imageTitle: ProfileMode image
+        title: Javier Gutierrez
+        imageUrl: "img/photo.png"
+        imageTitle: Javier Gutierrez's photo
         # imageWidth: 120
         # imageHeight: 120
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        buttons:
-            - name: Blog
-              url: posts
-            - name: Profile Mode
-              url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+        # 📝
+        subtitle: "🗺️ GIS Developer | 💡 Product Owner | 🤝 Team Lead"
+        # buttons:
+        #     - name: CV
+        #       url: resume
+        #     - name: Contact
+        #       url: contact
+        #     - name: Projects
+        #       url: projects
     menu:
         main:
-            - name: Archive
-              url: archives/
+            - name: CV
+              url: resume
+              weight: 1
+            - name: Projects
+              url: projects
               weight: 5
-            - name: FRTags
-              url: frtags
+            - name: Contact
+              url: contact
               weight: 10
-            - name: FRCategories
-              url: frcategories
-              weight: 10
-            - name: FRSeries
-              url: frseries
-              weight: 10
-            - name: NullLink
-              url: "#"
 
-fa:
-    languagedirection: rtl
-    weight: 3
-    title: PaperMod RTL
-    homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to RTL layout
-    taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
-    menu:
-        main:
-            - name: FATags
-              url: fatags
-              weight: 10
+
+
+# de:
+#     languageName: ":de:"
+#     languageAltTitle: Deutsch
+#     weight: 2
+#     title: ""
+#     taxonomies:
+#       cv: CV_de
+#       contact: Contact_de
+#       projects: Projects_de
+#     profileMode:
+#         enabled: true
+#         title: Javier Gutierrez
+#         imageUrl: "img/photo.png"
+#         imageTitle: Javier Gutierrez's photo
+#         # imageWidth: 120
+#         # imageHeight: 120
+#         # 📝
+#         subtitle: "🗺️ GIS Entwickler | 💡 Product Owner | 🤝 Team Leiter"
+#         buttons:
+#             - name: CV_de
+#               url: cv
+#             - name: Contact_de
+#               url: contact
+#             - name: Projects_de
+#               url: projects
+#     # menu:
+#     #     main:
+#     #         - name: Archive
+#     #           url: archives/
+#     #           weight: 5
+#     #         - name: FRTags
+#     #           url: frtags
+#     #           weight: 10
+#     #         - name: FRCategories
+#     #           url: frcategories
+#     #           weight: 10
+#     #         - name: FRSeries
+#     #           url: frseries
+#     #           weight: 10
+#     #         - name: NullLink
+#     #           url: "#"
+

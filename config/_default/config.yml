@@ -1,5 +1,5 @@
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: PaperMod
+baseURL: "https://www.example.org/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Javier Gutierrez
 paginate: 5
 theme: PaperMod
 
@@ -20,65 +20,66 @@ minify:
 outputs:
     home:
         - HTML
-        - RSS
-        - JSON
+        # - RSS
+        # - JSON
+
+Copyright: "© 2022 Javier Gutierrez - "
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "Javier Gutierrez's website"
+    author: Javier Gutierrez
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
     # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: true
-    ShowToc: true
-    # comments: false
-    images: ["papermod-cover.png"]
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    displayFullLangName: false
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: false
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    comments: false
+    hidemeta: true
+    hideSummary: true
+    cover:
+        responsiveImages: false
+    # images: ["papermod-cover.png"]
 
-    profileMode:
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
+    # profileMode:
+    #     enabled: true
+    #     title: PaperMod
+    #     imageUrl: "#"
+    #     imageTitle: my image
+    #     # imageWidth: 120
+    #     # imageHeight: 120
+    #     buttons:
+    #         - name: Archives
+    #           url: archives
+    #         - name: Tags
+    #           url: tags
 
-    homeInfoParams:
-        Title: "PaperMod"
-        Content: >
-            Welcome to demo of hugo's theme PaperMod.
+    # homeInfoParams:
+    #     Title: "PaperMod"
+        
 
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+    # socialIcons:
+    #     - name: linkedin
+    #       url: "https://www.linkedin.com/in/jgtrez"
+    #     - name: github
+    #       url: "https://github.com/gutierrezjav"
+    #     - name: twitter
+    #       url: "https://twitter.com/gutierrezjav"
+          
 
-            - Do give a 🌟 on Github !
 
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-
-    socialIcons:
-        - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
-        - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
-        - name: Rss
-          url: "index.xml"
-
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+    # editPost:
+    #     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+    #     Text: "Suggest Changes" # edit text
+    #     appendFilePath: true # to append file path to Edit link
 
     # label:
     #     text: "Home"

@@ -1,0 +1,11 @@
+.profile img{
+    box-shadow: 0 0 0px 3px rgb(28 28 28 / 50%);
+    background-color: rgb(28 28 28 / 50%);
+}
+
+.dark .profile img{
+    box-shadow: 0 0 0px 3px rgb(213 213 214 / 50%);
+    background-color: rgba(213 213 214 / 50%);
+
+
+}
