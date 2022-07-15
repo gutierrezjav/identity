@@ -16,17 +16,17 @@ en:
         # imageHeight: 120
         # 📝
         subtitle: "🗺️ GIS Developer | 💡 Product Owner | 🤝 Team Lead"
-        # buttons:
-        #     - name: CV
-        #       url: resume
-        #     - name: Contact
-        #       url: contact
-        #     - name: Projects
-        #       url: projects
+        buttons:
+            - name: CV
+              url: cv
+            - name: Projects
+              url: projects
+            - name: Contact
+              url: contact
     menu:
         main:
             - name: CV
-              url: resume
+              url: cv
               weight: 1
             - name: Projects
               url: projects
